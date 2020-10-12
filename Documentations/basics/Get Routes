@@ -1,0 +1,8 @@
+The "GET" requests are used to send only limited amount of data because data is sent into header.
+
+Example -
+router.get("/categories",getAllCategory);
+
+In this Example "/categories" are the address for the route and getAllCategory is the method in controller.
+
+Note- It is not secure because data is visible in URL bar

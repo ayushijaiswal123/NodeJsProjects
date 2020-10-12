@@ -1,0 +1,19 @@
+In this section its just about file structure you should work on any projects there is proper ways to do your file structure
+mostly it helps you to keep track of your project most of project follow the mvc(Model, View, Controller) pattern.
+
+here is some examples of it
+--Lets consider the project of the shopping cart
+  file structure as follow
+
+  ---Controller
+      -auth.js 
+      -product.js 
+      -order.js 
+ ---Model
+     -product.js 
+     -order.js
+     -user.js
+ ---routes
+     -app.js
+
+The structure make things easier.

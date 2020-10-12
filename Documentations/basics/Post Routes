@@ -1,0 +1,11 @@
+
+The Post-
+There are many ways to perform an HTTP POST request in Node.js, depending on the abstraction level you want to use.
+
+Example -
+router.post("/category/create/:userId",
+    isSignedIn,
+    isAuthenticated,
+);
+
+In this Example the "/category/create/:userId" it is the address of route with user_id, isAuthenticated & isSignedIn are the middelware.
